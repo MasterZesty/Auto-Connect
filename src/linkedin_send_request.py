@@ -7,8 +7,8 @@ from configparser import ConfigParser
 from selenium.webdriver.chrome.service import Service
 
 # Put your email and password for linkein in config.ini file 
-EMAIL = 'krishna.nimbalkar.2000@gmail.com'
-PASSWORD = 'LinkedInBot@2023'
+EMAIL = ''
+PASSWORD = ''
 CONNECTION_LIMIT = 10
 # You can set here how many connections you want to send request
 
