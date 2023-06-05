@@ -1,3 +1,5 @@
+# This script is having errors 
+
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
@@ -7,8 +9,8 @@ from configparser import ConfigParser
 from selenium.webdriver.chrome.service import Service
 
 # Put your email and password for linkein in config.ini file 
-EMAIL = 'krishna.nimbalkar.2000@gmail.com'
-PASSWORD = 'LinkedInBot@2023'
+EMAIL = 'EMAIL'
+PASSWORD = 'PASSWORD'
 CONNECTION_LIMIT = 10
 # You can set here how many connections you want to send request
 
