@@ -11,6 +11,7 @@ from selenium.webdriver.chrome.service import Service
 # Put your email and password for linkein in config.ini file 
 EMAIL = 'EMAIL'
 PASSWORD = 'PASSWORD'
+
 CONNECTION_LIMIT = 10
 # You can set here how many connections you want to send request
 

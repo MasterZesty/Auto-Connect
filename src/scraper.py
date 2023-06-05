@@ -66,7 +66,7 @@ def get_profile_links(page_url):
         # Save the profile links to a JSON file
         total_profiles = len(profile_links)
         print(f"Total {total_profiles} profiles.")
-        with open('linkedin_profiles.json', 'w') as f:
+        with open('src/linkedin_profiles.json', 'w') as f:
             json.dump(profile_links, f)
 
     except Exception as e:
